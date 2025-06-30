@@ -1,0 +1,7 @@
+#!/bin/bash
+
+NAME=$RANDOM
+ssh-keygen -f $NAME -N ""
+git add .
+git commit -m "Add $NAME"
+
